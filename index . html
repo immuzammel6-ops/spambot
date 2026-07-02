@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SPAM BOT</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0b0b0b;
+color:#fff;
+}
+
+header{
+background:linear-gradient(90deg,#ff0000,#660000);
+padding:20px;
+text-align:center;
+box-shadow:0 0 20px red;
+}
+
+header h1{
+font-size:38px;
+}
+
+header p{
+color:#ddd;
+margin-top:8px;
+}
+
+.hero{
+padding:60px 20px;
+text-align:center;
+background:url("https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200") center/cover;
+}
+
+.hero h2{
+font-size:45px;
+color:#fff;
+text-shadow:0 0 10px red;
+}
+
+.hero p{
+margin-top:15px;
+font-size:18px;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:15px 35px;
+background:#25D366;
+color:#fff;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:30px 0;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}.card{
+background:#151515;
+border:2px solid #ff0000;
+border-radius:15px;
+padding:20px;
+text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 20px red;
+}
+
+.card h3{
+font-size:24px;
+margin-bottom:10px;
+color:#ff4444;
+}
+
+.price{
+font-size:34px;
+color:#00ff66;
+font-weight:bold;
+margin:15px 0;
+}
+
+.buy{
+display:inline-block;
+padding:12px 30px;
+background:#25D366;
+color:#fff;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+.buy:hover{
+background:#1ea851;
+}
+
+footer{
+background:#111;
+text-align:center;
+padding:30px;
+margin-top:40px;
+border-top:2px solid red;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🔥 SPAM BOT 🔥</h1>
+<p>Premium Unlimited Invite Service</p>
+</header>
+
+<section class="hero">
+<h2>BEST SPAM BOT SERVICE</h2>
+<p>Fast • Secure • 24/7 Support</p>
+
+<a class="btn" href="https://wa.me/8801742723085">
+Order On WhatsApp
+</a>
+</section>
+
+<div class="container">
+
+<h2 style="text-align:center;margin-bottom:30px;">
+💎 OUR PACKAGES
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>4 BOT</h3>
+<div class="price">৳400</div>
+<p>Unlimited Invite</p>
+<a class="buy" href="https://wa.me/8801742723085">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>8 BOT</h3>
+<div class="price">৳600</div>
+<p>Unlimited Invite</p>
+<a class="buy" href="https://wa.me/8801742723085">Buy Now</a>
+</div><div class="card">
+<h3>12 BOT</h3>
+<div class="price">৳800</div>
+<p>Unlimited Invite</p>
+<a class="buy" href="https://wa.me/8801742723085">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>20 BOT</h3>
+<div class="price">৳1000</div>
+<p>Unlimited Invite</p>
+<a class="buy" href="https://wa.me/8801742723085">Buy Now</a>
+</div>
+
+</div>
+
+<h2 style="text-align:center;margin:50px 0 20px;color:#ff4444;">
+⭐ Why Choose SPAM BOT?
+</h2>
+
+<div style="background:#151515;padding:25px;border-radius:15px;">
+<p>✅ Unlimited Invite System</p>
+<br>
+<p>✅ Fast & Secure Service</p>
+<br>
+<p>✅ Instant Delivery</p>
+<br>
+<p>✅ 24/7 Customer Support</p>
+<br>
+<p>✅ Easy Setup</p>
+<br>
+<p>✅ Trusted Seller</p>
+</div>
+
+<h2 style="text-align:center;margin:50px 0 20px;color:#ff4444;">
+📞 Contact
+</h2>
+
+<div style="text-align:center;">
+<a class="btn" href="https://wa.me/8801742723085">
+WhatsApp: 01742723085
+</a>
+</div><footer>
+
+<h2 style="color:#ff4444;">SPAM BOT</h2>
+
+<p style="margin-top:10px;">
+🚀 Premium Unlimited Invite Service
+</p>
+
+<p style="margin-top:10px;">
+📱 WhatsApp: +8801742723085
+</p>
+
+<p style="margin-top:10px;">
+💬 Fast Delivery | 24/7 Support
+</p>
+
+<hr style="margin:20px 0;border:1px solid #333;">
+
+<p style="color:#888;">
+© 2026 SPAM BOT. All Rights Reserved.
+</p>
+
+</footer>
+
+</div>
+
+<script>
+document.querySelectorAll(".buy").forEach(btn=>{
+btn.addEventListener("click",()=>{
+alert("Thanks for choosing SPAM BOT! You will be redirected to WhatsApp.");
+});
+});
+</script>
+
+</body>
+</html>
